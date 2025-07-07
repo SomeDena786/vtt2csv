@@ -5,7 +5,7 @@ def vtt_to_csv(folder_path, output_csv):
     all_rows = []
 
     for filename in os.listdir(folder_path):
-        if filename.endswith('.ja.txt'):
+        if filename.endswith('.ja.vtt'):
             base_name = filename[:-7]
             id_start = base_name.find('[')
             id_end = base_name.find(']')
