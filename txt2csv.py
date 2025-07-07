@@ -45,5 +45,4 @@ def vtt_to_csv(folder_path, output_csv):
         writer.writerow(['filename', 'timestamp', 'subtitle', 'id', 'url'])
         writer.writerows(all_rows)
 
-# 使い方例:
-vtt_to_csv('/Users/someden/Downloads/yt-dlp', '/Users/someden/export.csv')
+# 使い方例: vtt_to_csv('/Users/someden/Downloads/yt-dlp', '/Users/someden/export.csv')
